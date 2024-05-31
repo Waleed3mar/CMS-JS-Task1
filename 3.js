@@ -29,8 +29,8 @@ while (birth > 2010 || isNaN(birth)) {
 
 let age = 2024 - birth;
 
-document.write("Name: " + username)
+document.write("<span style='text-decoration: underline; font-weight: bold;'> Name:</span> " + username)
 document.write("<br>")
-document.write("Birth year: " + birth)
+document.write("<span style='text-decoration: underline; font-weight: bold;'> Birth year:</span> " + birth)
 document.write("<br>")
-document.write("Age: " + age)
+document.write("<span style='text-decoration: underline; font-weight: bold;'> Age:</span> " + age)
